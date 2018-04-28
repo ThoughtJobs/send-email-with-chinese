@@ -37,8 +37,8 @@ let message = {
   '<li>扁平的组织结构，自由交流的工作环境</li>' +
   '<li>无可限量的职业发展前景</li>' +
   ' </ul>' +
-  '        <p style="margin-top: 20px">目前公司处于快速发展阶段，武汉开放职位有：Web前端开发，后端开发（Java），DevOps运维工程师等。</p>\n' +
-  '        <p>如果您对我们公司感兴趣，可直接回复简历到该邮件，标题: [内推] + 姓名 + 求职意向。想获取面试流程，面试指导以及详细职位介绍 等信息，请关注公众号 <b>ThoughtJobs</b>。我们会为您定制属于你的ThoughtWorks之旅。</p>\n' +
+  '        <p style="margin-top: 20px">目前公司处于快速发展阶段，武汉长期开放职位有：Web前端开发，后端开发（Java），DevOps运维工程师等。2018秋季校园招聘也将在9月举行，欢迎届时关注我们。</p>\n' +
+  '        <p>如果您对我们公司感兴趣，可直接回复简历到该邮件，标题: [内推] + 姓名 + 求职意向。想获取面试流程，面试指导以及详细职位介绍 等信息，请关注公众号 <b>ThoughtJobs</b>，我们会为您定制属于你的ThoughtWorks之旅。</p>\n' +
   '        <img src="' + tracker + '" alt="">\n' +
   '        <img src="https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzI3OTE0NDk3MA==&mid=502535419&idx=1&sn=62b858517cb3b261bd049f9f052b896b&send_time=1523341237" alt="">\n' +
   '        <p>如果你对目前的工作已经非常满意，真心祝福你。不想收到类似的邮件，点击<a href="' + unsubscribe + '">取消关注</a>。</p>'
@@ -79,8 +79,8 @@ smtpTransport.sendMail(message, (err, info) => {
 //     '<li>扁平的组织结构，自由交流的工作环境</li>' +
 //     '<li>无可限量的职业发展前景</li>' +
 //     ' </ul>' +
-//     '        <p style="margin-top: 20px">目前公司处于快速发展阶段，武汉开放职位有：Web前端开发，后端开发（Java），DevOps运维工程师等。</p>\n' +
-//     '        <p>如果您对我们公司感兴趣，可直接回复简历到该邮件，标题: [内推] + 姓名 + 求职意向。想获取面试流程，面试指导以及详细职位介绍 等信息，请关注公众号 <b>ThoughtJobs</b>。我们会为您定制属于你的ThoughtWorks之旅。</p>\n' +
+//     '        <p style="margin-top: 20px">目前公司处于快速发展阶段，武汉长期开放职位有：Web前端开发，后端开发（Java），DevOps运维工程师等。2018秋季校园招聘也将在9月举行，欢迎届时关注我们。</p>\n' +
+//     '        <p>如果您对我们公司感兴趣，可直接回复简历到该邮件，标题: [内推] + 姓名 + 求职意向。想获取面试流程，面试指导以及详细职位介绍 等信息，请关注公众号 <b>ThoughtJobs</b>，我们会为您定制属于你的ThoughtWorks之旅。</p>\n' +
 //     '        <img src="' + tracker + '" alt="">\n' +
 //     '        <img src="https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzI3OTE0NDk3MA==&mid=502535419&idx=1&sn=62b858517cb3b261bd049f9f052b896b&send_time=1523341237" alt="">\n' +
 //     '        <p>如果你对目前的工作已经非常满意，真心祝福你。不想收到类似的邮件，点击<a href="' + unsubscribe + '">取消关注</a>。</p>'
